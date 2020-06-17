@@ -1,0 +1,6 @@
+# PaymentContext-.NetCore
+A project (POC) to understand how rich domains works
+
+THIS PROJECT IT IS BEING DEVELOPED, BECAUSE OF THIS, OUR "README" DOES NOT HAS NOT WAS FINISHED!
+
+WAIT A WHILE FOR MORE DESCRIPTIONS HERE!
