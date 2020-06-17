@@ -144,3 +144,10 @@ PaymentContext.Tests/obj/Debug/netcoreapp3.1/PaymentContext.Tests.csproj.FileLis
 PaymentContext.Tests/obj/Debug/netcoreapp3.1/PaymentContext.Tests.csprojAssemblyReference.cache
 PaymentContext.Tests/obj/Debug/netcoreapp3.1/PaymentContext.Tests.dll
 PaymentContext.Tests/obj/Debug/netcoreapp3.1/PaymentContext.Tests.pdb
+.vscode/tasks.json
+.vscode/launch.json
+PaymentContext.Tests/obj/Debug/netcoreapp3.1/PaymentContext.Tests.genruntimeconfig.cache
+PaymentContext.Tests/obj/Debug/netcoreapp3.1/PaymentContext.Tests.csproj.CoreCompileInputs.cache
+PaymentContext.Tests/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+*.cache
+*.AssemblyAttributes.cs
