@@ -30,7 +30,7 @@ namespace PaymentContext.Tests
         public void ShouldReturnErrorWhenHadActiveSubscription()
         {
             var payment = new PayPalPayment("12345678",DateTime.Now,DateTime.Now.AddDays(5),
-            10,10,_document,"Wayne Corp",_address,_email);
+            10,10,"Wayne Corp",_document,_address,_email);
 
             _subscription.AddPayment(payment);           
             _student.AddSubscription(_subscription);
@@ -50,7 +50,7 @@ namespace PaymentContext.Tests
         public void ShouldReturnSuccessWhenAddSubscription()
         {
              var payment = new PayPalPayment("12345678",DateTime.Now,DateTime.Now.AddDays(5),
-            10,10,_document,"Wayne Corp",_address,_email);
+            10,10,"Wayne Corp",_document,_address,_email);
 
             _subscription.AddPayment(payment);           
             _student.AddSubscription(_subscription);
