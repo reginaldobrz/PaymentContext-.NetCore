@@ -1,12 +1,16 @@
 using System;
+using System.Windows.Input;
+using Flunt.Notifications;
+using Flunt.Validations;
 using PaymentContext.Domain.Enums;
+using PaymentContext.Shared.Commands;
 
 namespace PaymentContext.Domain.Commands
 {
-    public class CreateBoletoSubscriptionCommand
+    public class CreateBoletoSubscriptionCommand : Notifiable,ICommands
     {
-        public string firstName { get; set; }
-        public string lastName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public string Document { get; set; }
         public string Email { get; set; }
         public string BarCode { get;  set; }
@@ -27,5 +31,16 @@ namespace PaymentContext.Domain.Commands
         public string State { get; set; }
         public string Country { get; set; }
         public string ZipCode { get; set; }
+
+        //Para o fail fast validation podemos usar a seguinte estrutura nos commands
+        public void Validate()
+        {
+            AddNotifications(new Contract()
+                .Requires()
+                .HasMinLen(FirstName,3,"Name.FirstName","Nome deve conter pelo menos 3 caracteres")
+                .HasMinLen(LastName,3,"Name.LastName","Nome deve conter pelo menos 3 caracteres")
+                .HasMaxLen(FirstName,40,"Name.FirstName","Nome deve até 40 caracteres")
+            );
+        }
     }
 }
