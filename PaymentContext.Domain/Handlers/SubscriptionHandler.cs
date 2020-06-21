@@ -14,7 +14,7 @@ namespace PaymentContext.Domain.Handlers
     public class SubscriptionHandler : 
         Notifiable,
         IHandler<CreateBoletoSubscriptionCommand>,
-        IHandler<CreatePayPalSubscriptionCommands>
+        IHandler<CreatePayPalSubscriptionCommand>
 
     {
         private readonly IStudentRepository _repository;
@@ -74,6 +74,10 @@ namespace PaymentContext.Domain.Handlers
             //agrupar as validacoes
             AddNotifications(name,document,email,address,student,subscription,payment);
 
+            //checar as notificacoes
+            if(Invalid)
+                return new CommandResult(false,"Nao foi possivel realizar assinatura");
+                
             //salvar as informacoes
             _repository.CreateSubscription(student);
 
@@ -84,7 +88,7 @@ namespace PaymentContext.Domain.Handlers
             return new CommandResult(true,"Assinatura realziada com sucesso");
         }
 
-        public ICommandResult Handle(CreatePayPalSubscriptionCommands command)
+        public ICommandResult Handle(CreatePayPalSubscriptionCommand command)
         {
             //verifica se o doc ja esta cadastrado
             if(_repository.DocumentExists(command.Document))
@@ -95,7 +99,7 @@ namespace PaymentContext.Domain.Handlers
                 AddNotification("Email","Este Email ja esta em uso");
 
             //gerar vos
-            var name = new Name(command.firstName,command.lastName);
+            var name = new Name(command.FirstName,command.LastName);
             var document = new Document(command.Document,EDocumentType.CPF);
             var email = new Email(command.Email);
             var address = new Address(command.Street,command.Number,command.Neighborhood,

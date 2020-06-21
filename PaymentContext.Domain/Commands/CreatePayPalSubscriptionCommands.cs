@@ -1,12 +1,15 @@
 using System;
+using System.Windows.Input;
+using Flunt.Notifications;
 using PaymentContext.Domain.Enums;
+using PaymentContext.Shared.Commands;
 
 namespace PaymentContext.Domain.Commands
 {
-    public class CreatePayPalSubscriptionCommands
+    public class CreatePayPalSubscriptionCommand : Notifiable, ICommands
     {
-        public string firstName { get; set; }
-        public string lastName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public string Document { get; set; }
         public string Email { get; set; }
         public string TransactionCode { get; set; }
@@ -26,5 +29,10 @@ namespace PaymentContext.Domain.Commands
         public string State { get; set; }
         public string Country { get; set; }
         public string ZipCode { get; set; }
+
+        public void Validate()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
