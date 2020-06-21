@@ -1,4 +1,4 @@
-# Modeling Rich Domains - NetCore
+# Modeling Rich Domains (Payment Context) - NetCore
 
 <p align="center">
   <a href="#introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
