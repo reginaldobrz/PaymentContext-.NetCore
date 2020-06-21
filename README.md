@@ -51,12 +51,13 @@ To do this "POC" i followed some steps, and i will told you every single one to 
 
 ## 🧙🏻‍♀️  Where i found this
 
-This is a 'Next Level Week' project from 'Rocketseat'developed by me ! 
+This is a project from 'balta.io' developed by me! 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Rocketseat"><img itemprop="image" class="TableObject-item avatar flex-shrink-0" src="https://avatars0.githubusercontent.com/u/28929274?s=200&amp;v=4" width="200" height="200" alt="@Rocketseat"><br /><sub><b>Rocketseat</b></sub></a><br />💻</a></td>
+    <td align="center"><a href="https://balta.io/"><img itemprop="image" class="TableObject-item avatar flex-shrink-0" src="https://avatars2.githubusercontent.com/u/20651926?s=200&v=4" width="200" height="200" alt="balta.io
+"><br /><sub><b>balta.io</b></sub></a><br />💻</a></td>
   </tr>
 </table>
 
