@@ -1,16 +1,13 @@
-# PaymentContext - NetCore
+
 <h1 align="center">
-    <head alt="Ecoleta" title="PaymentContext - NetCore" width="220px" />
+    <head alt="PaymentContext" title="PaymentContext - NetCore" src=".github/csharp-01.png" width="220px" />
 </h1>
 
 
 
 <p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-steps-to-run-this-project">Steps</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-there-is-how-its-mobile-work">Sample</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#%EF%B8%8F--where-i-found-this">Inspirations</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#concepts">Concepts</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
@@ -56,6 +53,23 @@ To do this "POC" i followed some steps, and i will told you every single one to 
 * `Commands`
 * `Fail Fast Validation`
 * `Testing`
+
+## 🧙🏻‍♀️  Where i found this
+
+This is a 'Next Level Week' project from 'Rocketseat'developed by me ! 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Rocketseat"><img itemprop="image" class="TableObject-item avatar flex-shrink-0" src="https://avatars0.githubusercontent.com/u/28929274?s=200&amp;v=4" width="200" height="200" alt="@Rocketseat"><br /><sub><b>Rocketseat</b></sub></a><br />💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## :memo: License
+
+This project use the MIT license. Look at this archive [LICENSE](LICENSE) to more details.
 
 
 
