@@ -13,7 +13,7 @@
   </p>
 
 ![Alt text](https://github.com/reginaldobrz/PaymentContext-.NetCore/blob/master/certificate.png)
-# A project (POC) to understand how rich domains works developing a payment context using .NetCore, The goal is reuse this project and modifying according to the project but obeying the architecture
+A project (POC) to understand how rich domains works developing a payment context using .NetCore, The goal is reuse this project and modifying according to the project but obeying the architecture
 
 ## 📖Introduction
 
