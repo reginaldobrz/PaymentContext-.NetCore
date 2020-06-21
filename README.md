@@ -17,7 +17,7 @@
 <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
   </p>
 
-(https://github.com/reginaldobrz/PaymentContext-.NetCore/blob/master/certificate.png)
+![Alt text](https://github.com/reginaldobrz/PaymentContext-.NetCore/blob/master/certificate.png)
 A project (POC) to understand how rich domains works
 
 ## 📖Introduction
