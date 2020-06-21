@@ -1,8 +1,26 @@
 # PaymentContext - NetCore
+<h1 align="center">
+    <head alt="Ecoleta" title="PaymentContext - NetCore" width="220px" />
+</h1>
 
 
 
-![Alt text](https://certificates.balta.io/NWVkZmQwYWE2NjY2NTgxYmRjYjU5ZmEzLDVjMzUwZjYyZTcxNzlhN2QxMjQxNzAyYQ==)
+<p align="center">
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-steps-to-run-this-project">Steps</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-there-is-how-its-mobile-work">Sample</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F--where-i-found-this">Inspirations</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
+
+<p align="center">  
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
+
+<img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
+  </p>
+
+(https://github.com/reginaldobrz/PaymentContext-.NetCore/blob/master/certificate.png)
 A project (POC) to understand how rich domains works
 
 ## 📖Introduction
